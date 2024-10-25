@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="http://localhost:8080/cadastro" method="post">
+
+        <div class="cadastro">
+            <h2>Cadastro</h2>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf"><br>
+
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date" id="nascimento" name="nasc"><br>
+
+            <label for="email">Email</label>
+            <input type="text" placeholder="seuemail@gmail.com" id="email" name="email"><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha"><br>
+
+            <div class="botao">
+                <button type="submit">Finalizar Cadastro</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
